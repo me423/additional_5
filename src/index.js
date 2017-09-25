@@ -11,5 +11,8 @@ module.exports = function check(str, bracketsConfig) {
 
         return result;
    };
-   
+   function delString(str, start, end) {
+        return newString = str.substring(0, start) + str.substring(end + 1);
+    }
+    
 }
